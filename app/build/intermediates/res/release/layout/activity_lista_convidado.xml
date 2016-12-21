@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.compreingressos.checkcompre.ConvidadoActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/standard_padding"
+        android:paddingBottom="@dimen/standard_padding"
+        android:paddingRight="@dimen/standard_padding"
+        android:paddingLeft="@dimen/standard_padding"
+        android:divider="#ffb1b1b1"
+        android:dividerHeight="1sp"
+        android:showDividers="middle">
+
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="Convidado"
+            android:id="@+id/txtConvidado"
+            android:layout_weight="2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirmado"
+            android:id="@+id/txtConfirmado"
+            android:gravity="right"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffb1b1b1" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#ffb1b1b1"
+        android:dividerHeight="1sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nenhum Registro Encontrado"
+        android:id="@+id/txtVazio"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:indeterminate="false"
+        android:padding="8dp" />
+
+</LinearLayout><!-- From: file:/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/src/main/res/layout/activity_lista_convidado.xml -->

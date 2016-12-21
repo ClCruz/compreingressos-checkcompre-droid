@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="br.compreingressos.checkcompre.MonitoramentoActivity">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:padding="8dp"
+            android:layout_centerVertical="true" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/table"
+            android:orientation="horizontal"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/box_value"
+                android:id="@+id/row">
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:padding="4dip"
+                        android:layout_weight="1"
+                        android:text="Tipo de Ingresso"
+                        android:textColor="@android:color/white"
+                        android:id="@+id/txtTipoBilhete" />
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:padding="4dip"
+                        android:layout_weight="1"
+                        android:text="Qtde."
+                        android:textColor="@android:color/white"
+                        android:id="@+id/txtQtde"
+                        android:gravity="right"/>
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:padding="4dip"
+                        android:layout_weight="1"
+                        android:text="Valor"
+                        android:textColor="@android:color/white"
+                        android:id="@+id/txtValor"
+                        android:gravity="right"/>
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:padding="4dip"
+                        android:layout_weight="1"
+                        android:text="Total"
+                        android:textColor="@android:color/white"
+                        android:id="@+id/txtTotal"
+                        android:gravity="right"/>
+            </TableRow>
+        </TableLayout>
+</RelativeLayout>

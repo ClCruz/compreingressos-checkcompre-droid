@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/classes-0ff038b224cfd63c7e59881c2a1239414b0a8d81.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/classes-a65c19cfe2c44fd1f850bc188ba4c0d186d5071e.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/classes-0cdea816fd23e1e31c513bae2ccee8273d5b4ba2.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/classes-1b163422dd0ae27bb58f22d250b8eb3ae60e3fe8.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/classes-a08fc933d12c764647df565cfada1ce4393742cd.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-a1f1d441c3643d1ba57b6063df04ef7f0719e586.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/libs/core-3.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e019d15a13a9786f881141d2df6654b8510bce8b">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/core-3.2.0-ccc59c51404ffbc76584fbd584fbd99e18013eed.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/libs/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-42213880d3c83dcd2dc4bbf0a96b6a747e9bf60f.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Library/Android/sdk/extras/android/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha1/constraint-layout-solver-1.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="78d61c347aa5002119e3c17bffcbebf28fe07b0b">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha1-f2a1c46a2896ba3b5ef2168f6b0da35a3947245a.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/classes-24ee9f447f44ed6626f078ac4eed314e60bd00c3.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-aa76b33b4c4a21059f3cbaf56dc17a0cbf76d4d7.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/classes-179849dd5b155be903316aae583757a22b9bb23a.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/libs/Parse-1.9.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe739334780fe321141e62720822c2d456061899">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/Parse-1.9.2-d897b6a83d3fce1fed5f5c8ca195edd64914b688.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ac78f93fc89c497a65f9d9a352cd405996d2f65a">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/classes-cf43f16922b95a136e3170eadf38e80957d5534c.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/classes-3988da4b64426ef844df42c79bbcae472930c8ce.jar" />
+    </item>
+    <item
+        jar="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha1/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ea579447f9afb1fbcb28e150e1cd4bfe7f56e75b">
+        <dex dex="/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/build/intermediates/pre-dexed/debug/classes-ad0617db9bffb0e0bf26bc1bdcc4239997bad821.jar" />
+    </item>
+
+</items>

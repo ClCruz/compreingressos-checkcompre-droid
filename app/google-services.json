@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "753405594940",
+    "firebase_url": "https://checkcompre.firebaseio.com",
+    "project_id": "checkcompre",
+    "storage_bucket": "checkcompre.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753405594940:android:06e921494881971e",
+        "android_client_info": {
+          "package_name": "br.compreingressos.checkcompre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753405594940-adeor5blo3324s7aogclno1frnlt0j83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9yue_GabIdII9bz7kauaYEWDiZ3xVlzw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

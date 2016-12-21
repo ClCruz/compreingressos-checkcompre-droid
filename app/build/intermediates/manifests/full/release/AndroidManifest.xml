@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.compreingressos.checkcompre"
+    android:versionCode="18"
+    android:versionName="2.4" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> -->
+    <!-- <permission -->
+    <!-- android:name="br.compreingressos.checkcompre.permission.C2D_MESSAGE" -->
+    <!-- android:protectionLevel="signature" /> -->
+    <!-- <uses-permission android:name="br.compreingressos.checkcompre.permission.C2D_MESSAGE" /> -->
+    <application
+        android:name="br.compreingressos.checkcompre.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_compre"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.compreingressos.checkcompre.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.zxing.client.android.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.compreingressos.checkcompre.LugarActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="br.compreingressos.checkcompre.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name="br.compreingressos.checkcompre.LocalActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="br.compreingressos.checkcompre.ConvidadoDetalheActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="br.compreingressos.checkcompre.ConvidadoCreateActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="br.compreingressos.checkcompre.AssinaturaActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="br.compreingressos.checkcompre.VendaActivity"
+            android:label="@string/app_name" />
+        <!--
+        meta-data
+            android:name="com.parse.push.notification_icon"
+            android:resource="@mipmap/ic_launcher_compre" />
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="br.compreingressos.checkcompre" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver
+        -->
+    </application>
+
+</manifest>

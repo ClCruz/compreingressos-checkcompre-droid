@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_apresentacao" android:title="Apresentações" android:orderInCategory="1"  />
+    <item android:id="@+id/action_leitura" android:title="Leitura" android:orderInCategory="2"  />
+    <item android:id="@+id/action_monitoramento" android:title="Monitoramento" android:orderInCategory="3"  />
+    <item android:id="@+id/action_painel" android:title="Painel" android:orderInCategory="4"  />
+    <item android:id="@+id/action_bordero" android:title="Borderô" android:orderInCategory="5"  />
+    <item android:id="@+id/action_search" android:title="Busca" android:orderInCategory="6"  />
+    <item android:id="@+id/action_logout" android:title="Sair" android:orderInCategory="7"  />
+</menu>

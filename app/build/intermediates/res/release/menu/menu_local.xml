@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_assinante"
+        android:orderInCategory="100"
+        android:title="@string/action_assinatura"
+        android:icon="@mipmap/ic_assinatura"
+        android:showAsAction="withText|ifRoom"/>
+</menu><!-- From: file:/Users/edicarlosbarbosa/Projetos/Ativos/CheckCompre/Android/CheckCompre/app/src/main/res/menu/menu_local.xml -->
